@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3beb4fdb-19b1-45e1-9932-4be7e67c0fdb" name="Changes" comment="tentar criar as threads necessarias apenas e alteração da classe find solution" />
+    <list default="true" id="3beb4fdb-19b1-45e1-9932-4be7e67c0fdb" name="Changes" comment="tentar criar as threads necessarias apenas e alteração da classe find solution">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReaderTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReaderTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FindSolutionCitizensBS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FindSolutionCitizensBS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkerThread.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +42,9 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/filip/OneDrive/Área de Trabalho/Universidade/2 ano/Sistemas Operativos/projeto recurso"
+    "last_opened_file_path": "C:/Users/filip/OneDrive/Área de Trabalho/Proj-Sistemas-Operativos-Solo"
   }
 }]]></component>
   <component name="RunManager">

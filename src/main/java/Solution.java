@@ -8,8 +8,10 @@ class Solution {
     List<Path> paths = new ArrayList<>();
 
     public Solution(Graph graph) {
-        for (Node citizen : graph.getCitizens()) { // Supondo que há um método getCitizens()
-            paths.add(new Path(citizen)); // Inicializa um caminho para cada cidadão
+        for (Node node : graph.getCitizens()) {  // a lista de cidadãos
+            if(node.getType() == Node.NodeType.CITIZEN) {  // vê se é um cidadao
+                paths.add(new Path(node));// Inicializa um caminho para cada cidadão
+            }
         }
     }
 

@@ -7,9 +7,15 @@ import java.util.concurrent.*;
 class Node {
     int id;
     List<Node> adjacents = new ArrayList<>();
+    NodeType nodeType;
 
-    public Node(int id) {
+    enum NodeType {
+        INTERSECTION, CITIZEN, SUPERMARKET
+    }
+
+    public Node(int id, NodeType type) {
         this.id = id;
+        this.nodeType = type;
     }
 
     public void addAdjacent(Node node) {
@@ -18,5 +24,12 @@ class Node {
 
     public List<Node> getAdjacents() {
         return adjacents;
+    }
+
+    public NodeType getType(){
+        return nodeType;
+    }
+    public void setType(NodeType type) {
+        this.nodeType = type;
     }
 }

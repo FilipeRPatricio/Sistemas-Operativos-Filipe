@@ -61,10 +61,13 @@ class WorkerThread extends Thread {
             if (i < 2 + numSupermarkets) {
                 System.out.println("A ligar supermercado " + vertex + " ao vértice final " + (totalVertices -1));
                 graph.addEdge(vertex, totalVertices -1);
+                Node supermarketNode = new Node(vertex, Node.NodeType.SUPERMARKET);  //adiciona supermercado e garante q é daquele tipo
+                graph.addEdge(vertex, totalVertices -1);
             } else {
+                Node citizenNode = new Node(vertex, Node.NodeType.CITIZEN);
                 System.out.println("A ligar cidadão " + vertex + " ao vértice inicial 0");
                 graph.addEdge(0, vertex);
-                graph.addCitizen(new Node(vertex));
+                graph.addCitizen(citizenNode);  // Adiciona o nó do cidadão
             }
         }
     }

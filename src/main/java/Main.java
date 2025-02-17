@@ -98,5 +98,14 @@ public class Main {
             graph.printGraph();
             System.out.println("Processamento concluído!");
 
+/**
+            Solution solution = new Solution(graph);
+
+            System.out.println("Caminhos encontrados para os cidadãos");
+            for (Path path : solution.paths) { System.out.println("Cidadão " + path.getStartNode().id + " -> Caminho: " + path);
+            }
+
+**/
+
         }
     }

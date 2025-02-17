@@ -30,7 +30,12 @@ class Graph {
     public void printGraph() {
         synchronized (System.out) {
             for (int i = 0; i < adjList.size(); i++) {
-                System.out.println("Vértice " + i + " -> " + adjList.get(i));
+                String type = "INTERSECTION"; // Default
+                if (i < citizens.size()) {
+                    Node citizenNode = citizens.get(i);
+                    type = citizenNode.getType().toString();
+                }
+                System.out.println("Vértice " + i + " (" + type + " )" + adjList.get(i));
             }
         }
     }
@@ -39,6 +44,7 @@ class Graph {
         for(int row = 0; row < M; row++ ){           //percorrer avenidas
             for(int colum = 0; colum < N; colum++) {       //percorrer ruas
                 int node = row * N + colum;          //converte (avenida, rua) num indice do grafo
+                Node intersection = new Node(node, Node.NodeType.INTERSECTION);
 
                 if(colum < N-1){
                     addEdge(node, node + 1);
@@ -51,12 +57,12 @@ class Graph {
         }
     }
 
-
     public List<Node> getCitizens() {
         return citizens;
     }
 
     public void addCitizen(Node citizen) {
-        citizens.add(citizen);
+        citizens.get(citizen.id).setType(Node.NodeType.CITIZEN);
     }
+
 }
