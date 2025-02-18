@@ -37,10 +37,11 @@ class WorkerThread extends Thread {
             System.out.println(Thread.currentThread().getName() + " A processar: " + data);
         }
 
-        if (data.isEmpty()  || data.size() < 2) {
+        if (data.size() < 2) {
             System.err.println("Erro: A thread " + Thread.currentThread().getName() + " recebeu poucos dados: " + data);
             return;
         }
+/**
         //obtem o nº de supermercados e cidadãos
         String[] firstLine = data.get(1).split(" ");
         if (firstLine.length < 2) {
@@ -70,5 +71,6 @@ class WorkerThread extends Thread {
                 graph.addCitizen(citizenNode);  // Adiciona o nó do cidadão
             }
         }
+ **/
     }
 }

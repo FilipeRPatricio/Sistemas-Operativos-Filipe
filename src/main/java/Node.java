@@ -9,13 +9,18 @@ class Node {
     List<Node> adjacents = new ArrayList<>();
     NodeType nodeType;
 
+    int x;
+    int y;
+
     enum NodeType {
         INTERSECTION, CITIZEN, SUPERMARKET
     }
 
-    public Node(int id, NodeType type) {
+    public Node(int id, int x, int y) {
         this.id = id;
-        this.nodeType = type;
+        this.nodeType = NodeType.INTERSECTION;
+        this.x = x;
+        this.y = y;
     }
 
     public void addAdjacent(Node node) {
@@ -29,7 +34,17 @@ class Node {
     public NodeType getType(){
         return nodeType;
     }
-    public void setType(NodeType type) {
-        this.nodeType = type;
+    public void setType(String type) {
+        if(type == "SUPERMARKET"){
+            this.nodeType = NodeType.SUPERMARKET;
+        }
+        if(type == "CITIZEN"){
+            this.nodeType = NodeType.CITIZEN;
+        }
+        if(type == "INTERSECTION"){
+            this.nodeType = NodeType.INTERSECTION;
+        }
     }
+
+
 }

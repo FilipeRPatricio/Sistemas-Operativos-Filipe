@@ -24,10 +24,6 @@ class FileReaderTask {
                 lines.add(line);
             }
         }
-
-        System.out.println("Conteúdo do arquivo:");
-        lines.forEach(System.out::println);
-
         return lines;
     }
 }

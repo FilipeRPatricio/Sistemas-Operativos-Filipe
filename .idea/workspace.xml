@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3beb4fdb-19b1-45e1-9932-4be7e67c0fdb" name="Changes" comment="tentar criar as threads necessarias apenas e alteração da classe find solution">
+    <list default="true" id="3beb4fdb-19b1-45e1-9932-4be7e67c0fdb" name="Changes" comment="arranjar grafo e fazer tipos de vertices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileReaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileReaderTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FileReaderTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReaderTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FindSolutionCitizensBS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FindSolutionCitizensBS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Path.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkerThread.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739583487781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="arranjar grafo e fazer tipos de vertices">
+      <option name="closed" value="true" />
+      <created>1739814632352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739814632352</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +131,7 @@
     <MESSAGE value="melhoria no geral de tudo principalmente do grafo" />
     <MESSAGE value="tentar criar as threads necessarias apenas" />
     <MESSAGE value="tentar criar as threads necessarias apenas e alteração da classe find solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="tentar criar as threads necessarias apenas e alteração da classe find solution" />
+    <MESSAGE value="arranjar grafo e fazer tipos de vertices" />
+    <option name="LAST_COMMIT_MESSAGE" value="arranjar grafo e fazer tipos de vertices" />
   </component>
 </project>
